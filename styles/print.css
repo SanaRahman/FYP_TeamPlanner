@@ -1,0 +1,42 @@
+@media print{@page{
+    size: auto;
+  size:A4 Potrait;
+  margin-left:0;
+  border: 1px solid red;
+}
+}
+#h{
+  visibility: visible;
+  display: block;
+}
+#print{
+  visibility: none;
+}
+#sidebar{
+  display:none;
+  visibility: none;
+}
+#print{
+  display:none;
+  visibility: none;
+}
+#header{
+  display:none;
+  visibility: none;
+}
+#title{
+  display:none;
+  visibility: none;
+}
+#main{
+  /*position: absolute;*/
+  margin-left:20px;
+  margin-right: 0;
+  padding-right: 0;
+  width:100%;
+
+}
+#stat{
+  display:none;
+  visibility: none;
+}
